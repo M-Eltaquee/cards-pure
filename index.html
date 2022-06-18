@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./resources/imgs/HL.png"
+      type="image/x-icon"
+    />
+    <!-- font awseom 5  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom style  -->
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <title>Hani & Laila</title>
+  </head>
+  <body>
+    <div class="control">
+      <div class="landing">
+        <img src="./resources/imgs/landing.jfif" alt="" />
+      </div>
+      <div class="close">
+        <i class="fas"></i>
+        <h5></h5>
+        <p>Restart</p>
+      </div>
+      <div class="content">
+        <input id="user-name" type="text" placeholder="Your Name" required />
+        <label for="user-name">Your Name</label>
+        <span id="start">Start Game</span>
+        <p class="msg msg-name">You must enter your name to play !</p>
+      </div>
+    </div>
+    <div class="container">
+      <!-- info section -->
+      <section id="info">
+        <div class="player-name">Hello<span></span></div>
+        <div class="wrong-tries">
+          Timer
+          <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+      </section>
+      <!-- game body  -->
+      <section id="game-body">
+        <div class="cards flex">
+          <!-- one  -->
+          <div class="card" data-card="one">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="one">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/1.jpg" alt="" />
+            </div>
+          </div>
+          <!-- two -->
+          <div class="card" data-card="two">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="two">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/2.jpg" alt="" />
+            </div>
+          </div>
+          <!-- three  -->
+          <div class="card" data-card="three">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="three">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/3.jpg" alt="" />
+            </div>
+          </div>
+          <!-- four  -->
+          <div class="card" data-card="four">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="four">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/4.jpg" alt="" />
+            </div>
+          </div>
+          <!-- Five  -->
+          <div class="card" data-card="five">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="five">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/5.jpg" alt="" />
+            </div>
+          </div>
+          <!-- Six  -->
+          <div class="card" data-card="six">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="six">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/6.jpg" alt="" />
+            </div>
+          </div>
+          <!-- Seven  -->
+          <div class="card" data-card="seven">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/7.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="seven">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/7.jpg" alt="" />
+            </div>
+          </div>
+          <!-- Eight  -->
+          <div class="card" data-card="eight">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/8.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="eight">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/8.jpg" alt="" />
+            </div>
+          </div>
+          <!-- Nine  -->
+          <div class="card" data-card="nine">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/9.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="nine">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/9.jpg" alt="" />
+            </div>
+          </div>
+
+          <!-- Ten  -->
+          <div class="card" data-card="ten">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/10.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card" data-card="ten">
+            <div class="side front"></div>
+            <div class="side back">
+              <img src="./resources/imgs/10.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- mute music  -->
+    <div class="mute">
+      <i class="fas fa-volume-down"></i>
+    </div>
+    <!-- gam audios  -->
+    <audio
+      id="success"
+      src="./resources/imgs/success.mp3"
+      preload="auto"
+    ></audio>
+    <audio id="fail" src="./resources/imgs/fail.mp3" preload="auto"></audio>
+    <audio id="bg-audio" src="./resources/imgs/bg.mp3" preload="auto"></audio>
+    <audio id="lose" src="./resources/imgs/lose.mp3" preload="auto"></audio>
+    <audio
+      id="winning"
+      src="./resources/imgs/winning.mp3"
+      preload="auto"
+    ></audio>
+    <script src="custom.js"></script>
+  </body>
+</html>
